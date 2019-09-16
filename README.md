@@ -12,9 +12,7 @@
         
     *   Python编码(部分) [源码地址](http://weibo.com/ihubo)
         <pre><code>
-        cmd = [self._where('PowerShell.exe'),
-        "-NoLogo", "-NonInteractive",
-        "-Command", "-"]
+        cmd = [self._where('PowerShell.exe'),"-NoLogo", "-NonInteractive", "-Command", "-"]
         startupinfo = subprocess.STARTUPINFO()
         startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
         self.popen = subprocess.Popen(cmd, stdout=subprocess.PIPE, stdin=subprocess.PIPE, stderr=subprocess.STDOUT, startupinfo=startupinfo)
