@@ -10,7 +10,7 @@
         </code>
         </pre>
         
-    *   Python编码(部分)[源码地址](http://weibo.com/ihubo)
+    *   Python编码(部分) [源码地址](http://weibo.com/ihubo)
         <pre><code>
         cmd = [self._where('PowerShell.exe'),
         "-NoLogo", "-NonInteractive",
