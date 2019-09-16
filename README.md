@@ -10,7 +10,7 @@
         </code>
         </pre>
         
-    *   Python编码(部分) [源码地址](http://weibo.com/ihubo)
+    *   Python编码(部分) [源码地址](https://github.com/3tinky/Penetration-Test/blob/master/scripts/py_psh_encode.py)
         <pre><code>
         cmd = [self._where('PowerShell.exe'),"-NoLogo", "-NonInteractive", "-Command", "-"]
         startupinfo = subprocess.STARTUPINFO()
